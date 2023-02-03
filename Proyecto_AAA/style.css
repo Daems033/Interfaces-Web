@@ -450,7 +450,7 @@ img#accesibilidad {
 }
 
 p a {
-    color: var(--colorAmarillo);
+    color: var(--colorFFCD00);
     text-decoration: var(--textDecorationNone-listStyleNone);
 }
 
