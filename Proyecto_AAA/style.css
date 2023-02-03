@@ -962,7 +962,7 @@ article#index-article {
 }
 
 article#index-article > form, article#index-article > span, 
-article#index-article > h2, article#index-article > p {
+article#index-article > div > h2, article#index-article > p {
     display: flex;
     justify-content: center;
 }
@@ -971,17 +971,17 @@ article#index-article > span, article#index-article > p {
     font-size: 18px;
 }
 
-article#index-article > h2, article#index-article > h2 > span {
+article#index-article > div > h2, article#index-article > div > h2 > span {
     font-weight: var(--negrita700);
     font-size: 60px;
     gap: 0.3em;
 }
 
-article#index-article > h2, article#index-article > span, article#index-article > p {
+article#index-article > div > h2, article#index-article > span, article#index-article > p {
     color: var(--colorWhite);
 }
 
-article#index-article > h2 > span {
+article#index-article > div > h2 > span {
     color: var(--colorAmarillo);
 }
 
