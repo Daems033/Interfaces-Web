@@ -56,7 +56,7 @@
     --valore16px: 16px;
     --valor30px: 30px;
     --flexDirectionColumn: column;
-    --color626262: #626262;
+    --color505050: #505050;
     --gridColumns2-gridRows2: repeat(2, 1fr);
     --gridColumns3: repeat(3, 1fr);
     --zIndex: 1;
@@ -752,7 +752,7 @@ li.margin-footer {
 
 li.color-footer, div.block-footer-2 > div, div#copy, 
 div.block-footer > div, footer section:last-of-type > div > div {
-    color: var(--color626262);
+    color: var(--color505050);
 }
 
 div.block-footer-2 > span {
@@ -1100,7 +1100,7 @@ div.container-newarrivals > section > nav > ul > li {
 }
 
 div.container-newarrivals > section > nav > ul > li > a {
-    color: var(--color626262);
+    color: var(--color505050);
 }
 
 h2.categorias-grid {
@@ -1194,7 +1194,7 @@ div.flex-products > article > img {
 }
 
 div.flex-products > article > span {
-    color: #BF5600 !important;
+    color: #8C3F00 !important;
     font-size: 19.1px;
 }
 
@@ -1301,7 +1301,7 @@ div.container-topRating > article > img {
 }
 
 div.container-topRating > article > span {
-    color: #BF5600 !important;
+    color: #8C3F00 !important;
     font-size: 19px;
 }
 
@@ -1482,7 +1482,7 @@ div.container-products-featured > article > div > img {
 }
 
 div.container-products-featured > article > div > span {
-    color: #BF5600 !important;
+    color: #8C3F00 !important;
     font-weight: var(--negrita700);
     font-size: var(--valore16px);
 }
@@ -1511,7 +1511,7 @@ aside > img {
 
 aside > h2 {
     font-size: var(--valor14px);
-    color: #BF5600 !important;
+    color: #8C3F00 !important;
     font-weight: var(--negrita700);
     justify-content: var(--valorCenter);
     letter-spacing: 1px;
@@ -1550,7 +1550,7 @@ aside > span::before {
 
 aside > span:nth-of-type(2) {
     font-size: var(--valor12px);
-    color: #6F6F6F;
+    color: #575757;
     justify-content: var(--valorCenter);
     align-items: var(--valorFlexStart);
     padding-bottom: var(--valor2em);
@@ -1579,17 +1579,17 @@ div.blog-index > article > img {
 }
 
 div.blog-index > article > span {
-    color: #6F6F6F;
+    color: #575757;
     font-size: var(--valor12px);
 }
 
 div.blog-index > article > span:nth-of-type(1) {
-    color: #BF5600 !important;
+    color: #8C3F00 !important;
     font-size: var(--valor12px);
 }
 
 div.blog-index > article > span > a {
-    color: #BF5600 !important;
+    color: #8C3F00 !important;
     font-size: var(--valor14px);
     text-decoration: var(--textDecorationUnderline);
     font-weight: 400;
@@ -1605,7 +1605,7 @@ div.blog-index > article > h2 {
 
 div.blog-index > article > p, div.blog-index > article:nth-of-type(2) > p {
     line-height: 25px;
-    color: var(--color626262);
+    color: var(--color505050);
     font-size: var(--valor14px);
     font-weight: 300;
 }
