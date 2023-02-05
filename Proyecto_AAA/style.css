@@ -418,7 +418,7 @@ div.container-header div:first-child {
 }
 
 input + button {
-    background-color: var(--colorAmarillo);
+    background-color: #833C06;
     width: 7.5em;
     height: var(--valorDosConCincoEM);
     border-radius: 10%;
@@ -1119,7 +1119,7 @@ h2.categorias-grid > nav, div.container-newarrivals > section > nav > ul > li > 
 }
 
 a.viewmore {
-    color: var(--colorFFCD00) !important;
+    color: #833C06 !important;
     font-size: var(--valor14px);
     text-decoration: var(--textDecorationUnderline) !important;
     font-weight: var(--negrita700);
@@ -1194,13 +1194,13 @@ div.flex-products > article > img {
 }
 
 div.flex-products > article > span {
-    color: var(--colorAmarillo);
+    color: #BF5600 !important;
     font-size: 19.1px;
 }
 
 span.categoria-products {
     font-size: var(--valor12px) !important;
-    color: var(--color908F8F) !important;
+    color: #706F6F !important;
 }
 
 img#product-1 {
@@ -1301,7 +1301,7 @@ div.container-topRating > article > img {
 }
 
 div.container-topRating > article > span {
-    color: var(--colorAmarillo);
+    color: #BF5600 !important;
     font-size: 19px;
 }
 
@@ -1482,7 +1482,7 @@ div.container-products-featured > article > div > img {
 }
 
 div.container-products-featured > article > div > span {
-    color: var(--colorFFCD00);
+    color: #BF5600 !important;
     font-weight: var(--negrita700);
     font-size: var(--valore16px);
 }
@@ -1511,7 +1511,7 @@ aside > img {
 
 aside > h2 {
     font-size: var(--valor14px);
-    color: var(--colorFFCD00);
+    color: #BF5600 !important;
     font-weight: var(--negrita700);
     justify-content: var(--valorCenter);
     letter-spacing: 1px;
@@ -1550,7 +1550,7 @@ aside > span::before {
 
 aside > span:nth-of-type(2) {
     font-size: var(--valor12px);
-    color: #b4b4b4;
+    color: #6F6F6F;
     justify-content: var(--valorCenter);
     align-items: var(--valorFlexStart);
     padding-bottom: var(--valor2em);
@@ -1579,17 +1579,17 @@ div.blog-index > article > img {
 }
 
 div.blog-index > article > span {
-    color: #b0b0b0;
+    color: #6F6F6F;
     font-size: var(--valor12px);
 }
 
 div.blog-index > article > span:nth-of-type(1) {
-    color: var(--colorFFCD00);
+    color: #BF5600 !important;
     font-size: var(--valor12px);
 }
 
 div.blog-index > article > span > a {
-    color: var(--colorFFCD00);
+    color: #BF5600 !important;
     font-size: var(--valor14px);
     text-decoration: var(--textDecorationUnderline);
     font-weight: 400;
