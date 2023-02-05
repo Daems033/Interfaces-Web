@@ -1634,7 +1634,7 @@ div#fixed {
     z-index: 99;
     width: var(--valor45px);
     height: var(--valor45px);
-    background-color: var(--colorAmarillo);
+    background-color: #833C06;
 }
 
 div#fixed a {
