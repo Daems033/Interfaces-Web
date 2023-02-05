@@ -451,7 +451,6 @@ img#accesibilidad {
 
 p a {
     color: var(--colorFFCD00);
-    text-decoration: var(--textDecorationNone-listStyleNone);
 }
 
 input#sinbordes {
