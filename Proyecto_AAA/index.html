@@ -13,6 +13,13 @@
             font-family: 'Rowdies', cursive;
         }
     </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.querySelector('audio');
+            audio.muted = true;
+            audio.autoplay = false;
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -248,7 +255,7 @@
             <div class="container-video">
                 <div id="video">
                     <h2 class="title-video">Edición de video</h2>
-                    <video width="655" height="370" poster="imagenes/mbappe-lewandowski.png" src="video/TrabajoOpenshotDIW.mp4" controls muted autoplay>
+                    <video width="655" height="370" poster="imagenes/mbappe-lewandowski.png" src="video/TrabajoOpenshotDIW.mp4" controls>
                         <p>Su navegador no soporta contenido multimedia.</p>
                     </video>
                 </div>
