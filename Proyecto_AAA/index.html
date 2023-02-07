@@ -13,13 +13,6 @@
             font-family: 'Rowdies', cursive;
         }
     </style>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var audio = document.querySelector('audio');
-            audio.muted = true;
-            audio.autoplay = false;
-        });
-    </script>
 </head>
 <body>
     <header>
@@ -321,7 +314,7 @@
                 <h2>TESTIMONIALS</h2>
                 <img src="imagenes/Selección_072.png" alt="Comillas">
                 <p>Create stunning images with as much or as little control as you like thanks to a choice of Basic and Creative modes.</p>
-                <audio controls style="margin-bottom:4em;">
+                <audio controls style="margin-bottom:4em;" aria-label="Audio de fondo de la página de inicio">
                     <source src="audios/home.mp3" type="audio/mpeg">
                 </audio> 
                 <span>SEAN MORRISON</span>
