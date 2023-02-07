@@ -467,6 +467,10 @@ img#buscador {
 
 img#bandera {
     height: var(--valorUnoConUnoEM);
+    image-rendering: -webkit-optimize-contrast; 
+    image-rendering: -moz-crisp-edges; 
+    image-rendering: -o-pixelated; 
+    image-rendering: pixelated;
 }
 
 /* NAV */
