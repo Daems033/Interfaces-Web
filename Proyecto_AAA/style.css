@@ -389,6 +389,10 @@ body {
 }
 
 /* HEADER */
+a#principal {
+    color: #ffffff;
+}
+
 div.container-header, div.container-header-2, div.container-header > div > span, input + button {
     color: var(--colorWhite);
 }
@@ -401,7 +405,7 @@ div.container-header, div.container-header-2 {
 }
 
 div.container-header {
-    height: var(--valor40px);
+    height: 75px;
     gap: 50em;
     background-color: #003C86;
 }
